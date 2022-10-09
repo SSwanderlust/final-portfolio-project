@@ -65,31 +65,53 @@
       rel="stylesheet"
       href="styles/portfolio.css"
     />
-    <title>Samotis Svitlana</title>
+    <meta
+      name="description"
+      content="Svitlana is a front-end engineer based in Lviv, Ukraine. She specializes in HTML, CSS and JS"
+    />
+    <title>
+      Front-end developer - Svitlana Svitlana
+    </title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo.png"
             class="logo d-none d-md-block"
-            alt="logo"
+            alt="Portfolio logo"
           />
           <img
             src="images/small-logo.jpg"
             class="logo d-block d-md-none"
-            alt="logo"
+            alt="Portfolio logo"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a
+              href="about.html"
+              title="About Svitlana"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="work.html"
+              title="Svitlana's work"
+              >Work</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              title="Contact Svitlana"
+              >Contact</a
+            >
           </li>
         </ul>
       </nav>
@@ -101,7 +123,10 @@
         Front-end developer based in Ukraine
       </h2>
       <div>
-        <a href="#" class="btn btn-branding"
+        <a
+          href="/contact.html"
+          class="btn btn-branding"
+          title="Contact Svitlana"
           >Contact me</a
         >
       </div>
@@ -133,8 +158,9 @@
               flows by
             </p>
             <a
-              href="#"
+              href="/work.html"
               class="btn btn-branding-outline"
+              title="Svitlanas' Projects"
             >
               Learn More</a
             >
@@ -156,8 +182,9 @@
               flows by
             </p>
             <a
-              href="#"
+              href="/work.html"
               class="btn btn-branding-outline"
+              title="Svitlanas' Projects"
             >
               Learn More</a
             >
@@ -167,7 +194,7 @@
           <img
             src="images/weather-project.png"
             class="img-fluid"
-            alt="Yogurt Project"
+            alt="Weather Project"
           />
         </div>
       </div>
@@ -176,7 +203,7 @@
           <img
             src="images/dictionary-project.png"
             class="img-fluid"
-            alt="Yogurt Project"
+            alt="Dictionary Project"
           />
         </div>
         <div class="col mb-5">
@@ -193,8 +220,9 @@
               flows by
             </p>
             <a
-              href="#"
+              href="/work.html"
               class="btn btn-branding-outline"
+              title="Svitlanas' Projects"
             >
               Learn More</a
             >
@@ -206,13 +234,16 @@
           class="contact-box justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p calss="text-muted">
               Let's work together
             </p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3"
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Svitlana"
               >Contact Me</a
             >
           </div>
@@ -223,6 +254,7 @@
           <a
             href="mailto:svitlana.samotis@outlook.com"
             class="email-link"
+            title="Email Svitlana"
             >svitlana.samotis@outlook.com</a
           >
         </div>
@@ -232,20 +264,32 @@
           <a
             href="https://www.instagram.com/svitlanka_s_/"
             target="_blank"
+            title="Instagram Profile"
           >
             <i class="fa-brands fa-instagram"></i
           ></a>
           <a
             href="https://github.com/SSwanderlust"
             target="_blank"
+            title="Github Profile"
             ><i class="fa-brands fa-github"></i
           ></a>
           <a
             href="https://twitter.com/TestLifeOne"
             target="_blank"
+            title="Twitter Profile"
             ><i class="fa-brands fa-twitter"></i
           ></a>
         </div>
+        <p class="text-center mt-5 text-muted">
+          This project was coded by Svitlana
+          Samotis, and it is
+          <a
+            href="https://github.com/SSwanderlust/final-portfolio-project"
+            title="Github Repository"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
